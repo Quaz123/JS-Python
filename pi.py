@@ -18,7 +18,7 @@ def pi():
     return +s               # unary plus applies the new precision
 
 
-decimal.getcontext().prec = 10000
+decimal.getcontext().prec = 70000
 pi = pi()
 print(pi)
 end = time.time()
